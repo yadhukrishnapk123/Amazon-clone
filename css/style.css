@@ -218,7 +218,7 @@ z-index: 1;
 
 .products-slider .products img{
   max-width: 200px;
-  max-height: 200;
+  max-height: 200px;
 }
 
 .products-slider .products::-webkit-scrollbar{
@@ -304,4 +304,52 @@ footer{
   color: white;
   background: #131921;
   padding: 20px 60 px;
+}
+
+.line{border-bottom: 1px solid black;}
+
+.product-d-Details{
+  margin: 0 30px;
+}
+
+.product-title{
+  font-size: 25px;
+
+}
+.brand-store{
+margin-top: 5px;
+color: #007185;
+font-size: 14px;
+
+}
+
+.product-rateing{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-rateing div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-rateing p{
+  color: #007185;
+}
+
+
+.product-rateing p span{
+  color: white;
+background: #c73500;
+padding: 2px 5px;
+border-radius: 3px;
+font-size: 14px;
+}
+
+
+.product-rateing h5{
+  font-weight: 400;
+
 }
