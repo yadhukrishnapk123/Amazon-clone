@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="icon" href="assets/amazon_logo_dark.png" type="image/x-icon">
+    <script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js" type="application/javascript"></script>
 </head>
 <body>
     <nav>
@@ -79,8 +80,9 @@
             <img src="assets/product_img.jpg" width="60" alt="">
             <img src="assets/product_img.jpg" width="60" alt="">
         </div>
-        <div class="product-main-image">
-            <img src="assets/product_img.jpg" width="400" alt="">
+
+        <div  id="img-container" class="product-main-image"  >   
+            <img src="assets/product_img.jpg" class="poduct_png" alt="">
         </div>
     </div>
     <div class="product-d-Details"> 
@@ -148,7 +150,7 @@
     <p><b>From Factor</b></p> <p>over ear</p>
     <p><b>Conactyvity Technology</b></p> <p>Wirde</p>
 </div>
-
+<hr>
 <div class="product-discription">
     <h1>About This item</h1>
     <ul>
@@ -193,7 +195,8 @@
             <option value="2"> Quantity: 2</option>
             <option value="3"> Quantity: 3</option>
         </select>
-        <button class="btn">Add To Cart</button>
+        <a href="cart.html"> <button class="btn">Add To Cart</button></a>
+       
         <button class="btn product-buy">Buy Now</button>
 
         <div class="product-seller-info">
@@ -355,6 +358,6 @@ for (const item  of scrollContainer) {
     });
 }
 </script>
-
+<script src="js/product.js"></script>
 </body>
 </html>
